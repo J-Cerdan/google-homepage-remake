@@ -1,58 +1,65 @@
-#header {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 13px;
-    display: inline-block;
-    padding: 15px;
-}
-
-.left-header {
-    position: absolute;
-    top: 0;
-    left: 0;
-    margin: 7px 0 0 10px;
-}
-
-.right-header {
-    position: absolute;
-    top: 0;
-    right: 0;
-    padding-right: 15px;
-}
-
-#footer {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 13px;
-    display: inline-block;
-    padding: 0 13px;
-    line-height: 40px;
-}
-
-.left-footer {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-}
-
 a {
     text-decoration: none;
-}
-
-.right-footer {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-}
-
-#footer2 {
-    position: absolute;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    bottom: 40px;
+    font-size: 13px;
+}
+
+
+ul {
+    padding-left: 15px;
+    display: inline-block;
+}
+
+#header .li-right-t {
+    position: absolute;
+    top: 0;
+    right: 15px;
+    
+}
+
+#o, #p {
+    vertical-align: middle;
 }
 
 #main {
     display: block;
     margin: 0 auto;
     padding: 15px;
-    width: 600px;
+    width: 50%;
 }
+
+#footer {
+    background-color: #f2f2f2;
+    border-color: #e4e4e4;
+    border: 2px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+#footer .li-left-b {
+    position: absolute;
+    bottom: 0;
+    left: 15px;
+}
+
+#footer .li-right-b {
+    position: absolute;
+    bottom: 0;
+    right: 15px;
+}
+
+#footer2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    bottom: 40px;
+    background-color: #f2f2f2;
+    border-color: #e4e4e4;
+    border: 2px;
+    position: fixed;
+    left: 0;
+    text-align: left;
+    width: 100%;
+}
+
