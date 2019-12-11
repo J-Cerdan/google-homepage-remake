@@ -5,9 +5,14 @@ a {
 }
 
 
-ul {
+ul, li {
     padding-left: 15px;
     display: inline-block;
+    list-style: none;
+}
+
+input {
+    margin: 10px;
 }
 
 #header .li-right-t {
@@ -17,14 +22,10 @@ ul {
     
 }
 
-#o, #p {
-    vertical-align: middle;
-}
-
 #main {
     display: block;
     margin: 0 auto;
-    padding: 15px;
+    padding: 150px;
     width: 50%;
 }
 
@@ -61,5 +62,9 @@ ul {
     left: 0;
     text-align: left;
     width: 100%;
+}
+
+#footer2 #country {
+    margin-left: 15px;
 }
 
